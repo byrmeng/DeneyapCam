@@ -1,4 +1,4 @@
-#include "esp32cam.h"
+#include "DeneyapEsp32cam.h"
 
 #include <Arduino.h>
 #include <esp_camera.h>
