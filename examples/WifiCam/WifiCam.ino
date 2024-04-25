@@ -30,7 +30,7 @@ setup() {
     initialResolution = Resolution::find(1024, 768);
 
     Config cfg;
-    cfg.setPins(pins::AiThinker);
+    cfg.setPins(pins::DeneyapKart1A);
     cfg.setResolution(initialResolution);
     cfg.setJpeg(80);
 
