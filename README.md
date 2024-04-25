@@ -1,4 +1,4 @@
-# esp32cam: OV2640 camera on ESP32-CAM
+# esp32cam: Deneyap Cam, OV2640 camera on ESP32-CAM
 
 [![GitHub build status](https://img.shields.io/github/actions/workflow/status/yoursunny/esp32cam/build.yml?style=flat)](https://github.com/yoursunny/esp32cam/actions) [![GitHub code size](https://img.shields.io/github/languages/code-size/yoursunny/esp32cam?style=flat)](https://github.com/yoursunny/esp32cam)
 
