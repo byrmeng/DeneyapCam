@@ -5,26 +5,84 @@ namespace esp32cam {
 
 /** @brief Camera pins definition. */
 struct Pins {
-  int D0;
-  int D1;
-  int D2;
-  int D3;
-  int D4;
-  int D5;
-  int D6;
-  int D7;
-  int XCLK;
-  int PCLK;
-  int VSYNC;
-  int HREF;
-  int SDA;
-  int SCL;
+  int D0; //CAMD2
+  int D1; //CAMD3
+  int D2; //CAMD4
+  int D3; //CAMD5
+  int D4; //CAMD6
+  int D5; //CAMD7
+  int D6; //CAMD8
+  int D7; //CAMD9
+  int XCLK; //CAMXC
+  int PCLK; //CAMPC
+  int VSYNC; //CAMV
+  int HREF; //CAMH
+  int SDA; //CAMSD
+  int SCL; //CAMSC
   int RESET;
   int PWDN;
 };
 
 namespace pins {
 
+constexpr Pins DeneyapKart1Av2{
+  D0: 41,
+  D1: 2,
+  D2: 1,
+  D3: 42,
+  D4: 40,
+  D5: 38,
+  D6: 17,
+  D7: 15,
+  XCLK: 16,
+  PCLK: 39,
+  VSYNC: 6,
+  HREF: 7,
+  SDA: 4,
+  SCL: 5,
+  RESET: -1,
+  PWDN: -1,
+};
+
+/** @brief Pin definition for Deneyap Camera ESP32-CAM. */
+constexpr Pins DeneyapKart1A{
+  D0: 19,
+  D1: 22,
+  D2: 23,
+  D3: 21,
+  D4: 18,
+  D5: 26,
+  D6: 35,
+  D7: 34,
+  XCLK: 32,
+  PCLK: 5,
+  VSYNC: 36,
+  HREF: 39,
+  SDA: 33,
+  SCL: 25,
+  RESET: -1,
+  PWDN: -1,
+};
+
+/** @brief Pin definition for Deneyap Camera ESP32-CAM. */
+constexpr Pins DeneyapKart{
+  D0: 19,
+  D1: 22,
+  D2: 23,
+  D3: 21,
+  D4: 18,
+  D5: 26,
+  D6: 35,
+  D7: 34,
+  XCLK: 32,
+  PCLK: 5,
+  VSYNC: 36,
+  HREF: 39,
+  SDA: 33,
+  SCL: 25,
+  RESET: -1,
+  PWDN: -1,
+};
 /** @brief Pin definition for AI Thinker ESP32-CAM. */
 constexpr Pins AiThinker{
   D0: 5,
