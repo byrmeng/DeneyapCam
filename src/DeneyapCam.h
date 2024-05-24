@@ -1,7 +1,6 @@
 /**
- * @mainpage esp32cam
+ * @mainpage DeneyapCam
  *
- * https://github.com/yoursunny/esp32cam
  */
 
 #ifndef ESP32CAM_H
@@ -10,7 +9,7 @@
 #include "internal/config.hpp"
 #include "internal/mjpeg.hpp"
 
-namespace esp32cam {
+namespace DeneyapCam {
 
 class CameraClass {
 public:
@@ -47,7 +46,7 @@ public:
    */
   std::unique_ptr<Frame> capture();
 
-  struct [[deprecated("use esp32cam::MjpegConfig")]] StreamMjpegConfig : MjpegConfig{};
+  struct [[deprecated("use DeneyapCam::MjpegConfig")]] StreamMjpegConfig : MjpegConfig{};
 
   /**
    * @brief Stream Motion JPEG.
@@ -66,6 +65,6 @@ capture() {
   return Camera.capture();
 }
 
-} // namespace esp32cam
+} // namespace DeneyapCam
 
 #endif // ESP32CAM_H
