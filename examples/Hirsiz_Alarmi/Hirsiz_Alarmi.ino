@@ -5,12 +5,12 @@
 #include <DeneyapCam.h>                       //Zip olarak eklenmelidir. https://github.com/byrmeng/DeneyapCam
 #include <UniversalTelegramBot.h>
 
-static const char* WIFI_SSID = "EYUP DENEYAP";
-static const char* WIFI_PASS = "MTH#122016?!.";
+static const char* WIFI_SSID = "************";
+static const char* WIFI_PASS = "***********";
 
 DeneyapCam::Resolution initialResolution;
-String BOTtoken = "6646841681:AAHWo2zhuf_6KirZJthaUXNzd5iWt-J2ceU";
-String CHAT_ID = "911197812";
+String BOTtoken = "**********************";
+String CHAT_ID = "*************";
 
 WiFiClientSecure clientTCP;
 UniversalTelegramBot bot(BOTtoken, clientTCP);
