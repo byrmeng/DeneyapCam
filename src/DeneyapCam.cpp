@@ -1,9 +1,9 @@
-#include "DeneyapEsp32cam.h"
+#include "DeneyapCam.h"
 
 #include <Arduino.h>
 #include <esp_camera.h>
 
-namespace esp32cam {
+namespace DeneyapCam {
 
 CameraClass Camera;
 
@@ -101,4 +101,4 @@ CameraClass::streamMjpeg(Client& client, const MjpegConfig& cfg) {
   }
 }
 
-} // namespace esp32cam
+} // namespace DeneyapCam
